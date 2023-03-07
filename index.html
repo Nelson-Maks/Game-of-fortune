@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♨ Game Of Fortune 2</title>
+    <link rel="stylesheet" href="gof.css">
+</head>
+<body>
+    <header>
+        <img src="./images/logo.png" alt="">
+        
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Games</a>
+            <a href="#">Winners</a>
+            <a href="#">Claim Prize</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contact us</a>
+        </nav>
+
+        <div class="theme_change">
+            <span class="theme_ball"></span>
+        </div>
+
+        <img src="./images/menu.png" alt="" width="30px" class="menu">
+    </header>
+
+    <main>
+        <div class="banner">
+            <h1>Game Of Fortune 2</h1>
+            <button class="get_started">GET STARTED</button>
+        </div>
+
+        <div class="start_container">
+            <form class="form">
+                <div class="input_group">
+                    <label>Player Name</label>
+                    <input type="text" placeholder="e.g. Daisey" class="p_name">
+                </div>
+
+                <div class="input_group">
+                    <label>Stake</label>
+                    <input type="number" placeholder="e.g. $100" class="s_amount">
+                </div>
+
+                <button type="submit" class="start">START</button>
+
+            </form>
+        </div>
+
+        <div class="play">
+            <div class="play_container">
+                <button class="play_btn">CLICK HERE TO PLAY</button>
+
+                <div class="lp_balls">
+                    <div class="lucky">
+                        <h3>Lucky Balls</h3>
+                        <div class="lucky_balls">
+                          <!-- <span class="l_balls">1</span>
+                          <span class="l_balls">2</span>
+                          <span class="l_balls">3</span>
+                          <span class="l_balls">4</span>
+                          <span class="l_balls">5</span> -->
+                        </div>
+                    </div>
+
+
+                    <div class="player">
+                        <h3>Player Balls</h3>
+                        <div class="player_balls">
+                          <!-- <span class="p_balls ball_2">1</span>
+                          <span class="p_balls ball_2">2</span>
+                          <span class="p_balls ball_2">3</span>
+                          <span class="p_balls ball_2">4</span>
+                          <span class="p_balls ball_2">5</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prize">
+                    <h3>PRIZE</h3>
+                    <p>$<span class="amount_won">0</span></p>
+                </div>
+
+                <input type="button" value="Click here to Play Again" onclick="window.location.reload(true)" class="play_again">
+            </div>
+        </div>
+
+        <div class="middle">
+            <h1>OUR PRIZES</h1>
+
+            <div class="prizes">
+                <img src="./images/money.jpg" alt="">
+                <img src="./images/house.jpg" alt="">
+                <img src="./images/car.jpg" alt="">
+            </div>
+        </div>
+
+    </main>
+
+    <footer>© Copyright 2023. All rights reserved. Designed by Nelson.</footer>
+    <script src="gof.js"></script>
+</body>
+</html>
